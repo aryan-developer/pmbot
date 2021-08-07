@@ -243,7 +243,7 @@ if (admin == user_id) {
         $telegram->sendMessage([
             'chat_id' => admin,
             'parse_mode' => "MarkdownV2",
-            'text' =>"user id : `".user_id."`\n\nپیام :\n".text ,
+            'text' =>"\nuser id : `".user_id."`\n\nپیام :\n".text . "\n[بازکردن پروفایل](tg://user?id=".user_id.")" ,
         ]);
 
     }
