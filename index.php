@@ -1,7 +1,5 @@
 <?php
 require_once "Telegram.php";
-$bot = "namakboyo_bot";
-$channel = "irdevelopers_ir";
 $telegram = new Telegram(""); //توکن
 define("admin", ""); //آیدی عددی ادمین
 define("user_id", $telegram->ChatID());
